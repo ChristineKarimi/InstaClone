@@ -1,14 +1,29 @@
+
 h1
 {
   color: black;
+
 }
 
 html, body {
   position: relative;
   min-height: 100%;
+  
+}
+.title {
+  font-family: 'Satisfy', cursive;
 }
 
-// Within style tags in your html file
+.title1 {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+a {
+  font-family: 'Archivo Narrow', sans-serif; 
+}
+footer {
+  font-family: 'Satisfy', cursive;
+}
+/* // Within style tags in your html file */
 * { box-sizing: border-box; }
 
 .grid:after {
@@ -70,4 +85,8 @@ html, body {
 
 label {
   display: none;
+}
+
+.title {
+  font-family: 'Satisfy', cursive;
 }

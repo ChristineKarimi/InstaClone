@@ -5,14 +5,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
-
   {% if title %}
-  <title>PicsGram - {{title}}</title>
+  <title>Instagram - {{title}}</title>
   {% else %}
-    <title> PicsGram </title>
+    <title> Instagram </title>
   {% endif %}
  
 
@@ -25,9 +21,12 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Satisfy&display=swap" rel="stylesheet">
+
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-  <link rel="stylesheet" href="{% static 'css/basenews.css' %}">
+  <link rel="stylesheet" href="{% static 'css/main.css' %}">
   {% endblock %}
 
 </head>
@@ -35,14 +34,14 @@
 <body class="grey lighten-5">
     {% include "navbar.html" %}
 
-    {% block content %} 
+    <!-- {% block content %} 
     <div class="jumbotron jumbotron-fluid bg-dark mb-1 pb-3 pt-3">
         <div class="">
           <h2 class="display-5 text-center font-weight-bold text-white">Welcome to PicsGram</h2>
         </div>
       </div>
     
-    {%endblock%}
+    {%endblock%} -->
 
   
 
@@ -68,8 +67,8 @@
 <footer class="page-footer font-small primary-color-dark mt-4 pt-4">
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2019 Copyright.
-      <a href="https://github.com/josylad"> Joseph Adediji</a>
+    <div class="footer-copyright font-small text-center py-3 bg-dark pt-4">© 2020 Copyright.
+      <a href="https://github.com/NicolletteOchola"> Nicollette Ochola</a>
     </div>
     <!-- Copyright -->
   
