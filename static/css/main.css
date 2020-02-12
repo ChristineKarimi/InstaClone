@@ -9,6 +9,7 @@ html, body {
   position: relative;
   min-height: 100%;
   
+  
 }
 .title {
   font-family: 'Satisfy', cursive;
@@ -18,7 +19,7 @@ html, body {
   font-family: 'Archivo Narrow', sans-serif;
 }
 a {
-  font-family: 'Archivo Narrow', sans-serif; 
+  font-family: 'Satisfy', cursive;
 }
 footer {
   font-family: 'Satisfy', cursive;
