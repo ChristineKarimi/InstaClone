@@ -26,6 +26,9 @@ Nicollette Ochola
 ## Testing
 - To run the tests on the application run `python3.6 manage.py test app`
 
+## Live link
+https://nicoleinsta.herokuapp.com/
+
 ## Known Bugs
 No known bugs, if you encounter any, feel free to contact me.
 
